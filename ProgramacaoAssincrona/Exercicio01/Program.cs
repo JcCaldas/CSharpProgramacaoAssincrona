@@ -30,5 +30,31 @@ static async Task ExecutaOperacaoAsync()
     Console.WriteLine("\nIniciando o download do arquivo...");
     Console.WriteLine($"A operação será cancelada após {tempo} segundos...");
 
+	//2º - tratamento de exceções
+	try
+	{
 
+		using var httpClient = new HttpClient(); //após a instância ser utilizada será liberada
+		var destino = @"c:\temp\teste\arquivo.txt";
+		var urlDestino = "https://www.macoratti.net/dados/Poesia.txt";
+		//Desafio Pessoal: criar um método que verifica se o diretório existe, se não existir deve-se cria-lo
+
+		//
+
+    }
+
+    catch (OperationCanceledException ex) //Lançada quando uma operação assíncrona é cancelada
+	{
+
+	}
+
+	catch (HttpRequestException ex) //Lançada quando ocorre algum erro na requição http
+	{
+
+	}
+	catch (Exception)
+	{
+
+		throw;
+	}
 }

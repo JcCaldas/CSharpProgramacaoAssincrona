@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05TratamentoException2", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06MultiplasExceptions", "06MultiplasExceptions\06MultiplasExceptions.csproj", "{83457763-64FA-4244-9F65-75982CB030B4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicios", "Exercicios", "{774E90D2-F6E0-4BBE-89BB-79CAE209B927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio01", "Exercicio01\Exercicio01.csproj", "{B8BFEE05-5AFA-46CF-BB85-6018CF1D88ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,9 +55,16 @@ Global
 		{83457763-64FA-4244-9F65-75982CB030B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83457763-64FA-4244-9F65-75982CB030B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83457763-64FA-4244-9F65-75982CB030B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BFEE05-5AFA-46CF-BB85-6018CF1D88ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BFEE05-5AFA-46CF-BB85-6018CF1D88ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BFEE05-5AFA-46CF-BB85-6018CF1D88ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BFEE05-5AFA-46CF-BB85-6018CF1D88ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8BFEE05-5AFA-46CF-BB85-6018CF1D88ED} = {774E90D2-F6E0-4BBE-89BB-79CAE209B927}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CF9EDB8-371B-4707-A10D-75693FA758CA}
