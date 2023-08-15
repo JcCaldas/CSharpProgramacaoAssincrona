@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04TaskCancel", "04TaskCance
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05TratamentoException", "05TratamentoException\05TratamentoException.csproj", "{229EEA39-4E39-48B2-9FAA-6073220E28B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05TratamentoException2", "05TratamentoException2\05TratamentoException2.csproj", "{4CD9E509-35EF-4741-AA2A-2288AACFDD52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05TratamentoException2", "05TratamentoException2\05TratamentoException2.csproj", "{4CD9E509-35EF-4741-AA2A-2288AACFDD52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06MultiplasExceptions", "06MultiplasExceptions\06MultiplasExceptions.csproj", "{83457763-64FA-4244-9F65-75982CB030B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06MultiplasExceptions", "06MultiplasExceptions\06MultiplasExceptions.csproj", "{83457763-64FA-4244-9F65-75982CB030B4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicios", "Exercicios", "{774E90D2-F6E0-4BBE-89BB-79CAE209B927}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio01", "Exercicio01\Exercicio01.csproj", "{B8BFEE05-5AFA-46CF-BB85-6018CF1D88ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio01", "Exercicio01\Exercicio01.csproj", "{B8BFEE05-5AFA-46CF-BB85-6018CF1D88ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07StreamsAsync", "07StreamsAsync\07StreamsAsync.csproj", "{548F36FD-7531-4E62-8337-4E43D36F050A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{B8BFEE05-5AFA-46CF-BB85-6018CF1D88ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8BFEE05-5AFA-46CF-BB85-6018CF1D88ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8BFEE05-5AFA-46CF-BB85-6018CF1D88ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{548F36FD-7531-4E62-8337-4E43D36F050A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548F36FD-7531-4E62-8337-4E43D36F050A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548F36FD-7531-4E62-8337-4E43D36F050A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548F36FD-7531-4E62-8337-4E43D36F050A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
